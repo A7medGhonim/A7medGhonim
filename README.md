@@ -42,7 +42,7 @@ I have a strong foundation in **data analysis, business intelligence, and ERP sy
 ---
 
 ## 📂 Featured Projects | المشاريع البارزة  
-- [📊 SQL Data Warehouse Project](https://github.com/AhmedGonim/SQL-Data-Warehouse-Project.git) – Practical project for building a Data Warehouse using SQL Server.  
+- [📊 SQL Data Warehouse Project](https://github.com/A7medGhonim/SQL-Data-Warehouse-Project.git) – Practical project for building a Data Warehouse using SQL Server.  
 - [📈 Power BI Dashboards](#) – Interactive dashboards for data visualization and insights.  
 
 ---
