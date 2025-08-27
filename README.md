@@ -25,12 +25,13 @@ I have a strong foundation in **data analysis, business intelligence, and ERP sy
 
 ## 🎓 Certifications & Courses | الشهادات والدورات  
 - Python for Data Analysis  
-- Power BI  
+- SQL
+- Excel
+- Power BI
+- Tablue
 - Digital Transformation  
 - Odoo ERP  
-- SQL  
--Excel
--Tablue
+
 ---
 
 ## 🌍 Languages | اللغات  
