@@ -57,6 +57,6 @@ I have a strong foundation in **data analysis, business intelligence, and ERP sy
 ##  📊  GitHub Insights
 | GitHub Stats | Top Languages |
 |--------------|----------------|
-|![GitHub Stats](https://github-readme-stats.vercel.app/api?username=AhmedGonim&show_icons=true&theme=radical)|![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=AhmedGonim&layout=compact)|
+|![GitHub Stats](https://github-readme-stats.vercel.app/api?username=A7medGonim&show_icons=true&theme=radical)|![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=A7medGonim&layout=compact)|
 
 ---
