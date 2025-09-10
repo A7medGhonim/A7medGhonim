@@ -44,7 +44,7 @@ I have a strong foundation in **data analysis, business intelligence, and ERP sy
 ## 📂 Featured Projects | المشاريع البارزة  
 - [📊 SQL Data Warehouse Project](https://github.com/A7medGhonim/SQL-Data-Warehouse-Project.git) – Practical project for building a Data Warehouse using SQL Server.  
 - [📈 HR Dashboards-PowerBI](https://github.com/A7medGhonim/HR-Dashboard-PowerBI.git) – An interactive HR Dashboard built with Power BI to analyze workforce data and support HR decision-making.
-- - [Cafe Sales Dashboard](https://github.com/A7medGhonim/Cafe-Sales-Excel-Dashboard) ☕  
+- [Cafe Sales Dashboard](https://github.com/A7medGhonim/Cafe-Sales-Excel-Dashboard) ☕  
   📊 مشروع تحليل بيانات مبيعات كافيه باستخدام **Excel** و **Pivot Tables** مع تصميم Dashboard تفاعلي.
 
 ---
