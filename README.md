@@ -64,12 +64,3 @@ I have a strong foundation in **data analysis, business intelligence, and ERP sy
 ---
 ---
 
-## 📈 GitHub Stats  
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=A7medGhonim&show_icons=true&theme=radical" alt="GitHub Stats" height="180"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=A7medGhonim&layout=compact&theme=radical" alt="Top Languages" height="180"/>
-</p>
-
----
-
