@@ -47,6 +47,9 @@ I have a strong foundation in **data analysis, business intelligence, and ERP sy
 - [Cafe Sales Dashboard](https://github.com/A7medGhonim/Cafe-Sales-Excel-Dashboard) ☕  
   📊 Sales data analysis project using **Excel** and **Pivot Tables** with an interactive dashboard.
 
+- [Adidas Sales Dashboard](https://github.com/A7medGhonim/Adidas-Sales-Dashboard.git) ☕  
+  📊 Sales data analysis project using **PowerBI** 
+
 ---
 
 ##   📫 Let’s Connect | تواصل معي
