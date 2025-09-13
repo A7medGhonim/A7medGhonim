@@ -1,147 +1,839 @@
 <!DOCTYPE html>
-<html lang="ar">
+<html lang="ar" dir="rtl">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>README - Adidas Sales Dashboard</title>
-  <style>
-    body {
-      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-      margin: 0;
-      padding: 0;
-      line-height: 1.8;
-      background-color: #f9f9f9;
-      color: #333;
-      direction: rtl;
-      text-align: right;
-    }
-    header {
-      background: #225be7;
-      color: #fff;
-      padding: 30px 20px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 25px;
-    }
-    header img {
-      width: 120px;
-      height: 120px;
-      border-radius: 12px; /* مربع بحواف ناعمة */
-      object-fit: cover;
-      border: 3px solid #fff;
-    }
-    .header-text {
-      text-align: right;
-    }
-    .header-text h1 {
-      margin: 0;
-      font-size: 28px;
-      font-weight: bold;
-    }
-    .header-text p {
-      margin: 5px 0 15px;
-      font-size: 18px;
-    }
-    .social-links a {
-      display: inline-block;
-      margin-left: 10px;
-      padding: 8px 14px;
-      border-radius: 6px;
-      background: #fff;
-      color: #225be7;
-      font-size: 14px;
-      font-weight: bold;
-      text-decoration: none;
-      transition: 0.3s;
-    }
-    .social-links a:hover {
-      background: #ec692c;
-      color: #fff;
-    }
-    main {
-      max-width: 900px;
-      margin: 30px auto;
-      padding: 20px;
-      background: #fff;
-      border-radius: 12px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-    }
-    section {
-      margin-bottom: 25px;
-    }
-    ul {
-      list-style-type: "✔ ";
-      padding-right: 20px;
-    }
-    a {
-      color: #225be7;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-    .hashtags {
-      margin-top: 20px;
-      color: #555;
-      font-size: 14px;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmed Ghonim - Data Analyst Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --primary: #004a8e;
+            --secondary: #000;
+            --accent: #00a850;
+            --light: #f5f7fa;
+            --dark: #333;
+            --gray: #6c757d;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: var(--light);
+            color: var(--dark);
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        /* Header Styles */
+        header {
+            background: linear-gradient(135deg, var(--secondary) 0%, var(--primary) 100%);
+            color: white;
+            padding: 60px 0;
+            text-align: center;
+            position: relative;
+        }
+        
+        .profile {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+        
+        .profile-img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            border: 5px solid rgba(255, 255, 255, 0.3);
+            background-color: #ddd;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+        
+        .profile-img img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        .profile-img-placeholder {
+            font-size: 5rem;
+            color: var(--primary);
+        }
+        
+        .profile h1 {
+            font-size: 2.8rem;
+            margin-bottom: 10px;
+        }
+        
+        .profile-title {
+            font-size: 1.4rem;
+            opacity: 0.9;
+            margin-bottom: 15px;
+        }
+        
+        .profile-tagline {
+            max-width: 700px;
+            margin: 0 auto;
+            font-size: 1.1rem;
+        }
+        
+        /* Navigation */
+        nav {
+            background-color: white;
+            box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        
+        .nav-container {
+            display: flex;
+            justify-content: center;
+        }
+        
+        .nav-links {
+            display: flex;
+            list-style: none;
+        }
+        
+        .nav-links li a {
+            display: block;
+            padding: 20px 25px;
+            color: var(--dark);
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+        
+        .nav-links li a:after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            width: 0;
+            height: 3px;
+            background: var(--primary);
+            transition: all 0.3s ease;
+            transform: translateX(-50%);
+        }
+        
+        .nav-links li a:hover {
+            color: var(--primary);
+        }
+        
+        .nav-links li a:hover:after {
+            width: 80%;
+        }
+        
+        /* Sections */
+        section {
+            padding: 80px 0;
+        }
+        
+        .section-title {
+            text-align: center;
+            margin-bottom: 50px;
+            color: var(--primary);
+            font-size: 2.2rem;
+            position: relative;
+            padding-bottom: 15px;
+        }
+        
+        .section-title:after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80px;
+            height: 4px;
+            background: var(--accent);
+            border-radius: 2px;
+        }
+        
+        /* About Section */
+        #about {
+            background-color: white;
+        }
+        
+        .about-content {
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+            max-width: 900px;
+            margin: 0 auto;
+            text-align: center;
+            font-size: 1.1rem;
+        }
+        
+        .about-highlights {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 30px;
+        }
+        
+        .highlight {
+            background: var(--light);
+            padding: 15px 25px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-weight: 500;
+        }
+        
+        .highlight i {
+            color: var(--primary);
+            font-size: 1.2rem;
+        }
+        
+        /* Skills Section */
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+        }
+        
+        .skill-card {
+            background: white;
+            border-radius: 12px;
+            padding: 25px;
+            text-align: center;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+            transition: all 0.3s ease;
+            border-top: 5px solid var(--primary);
+        }
+        
+        .skill-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+        }
+        
+        .skill-icon {
+            font-size: 2.8rem;
+            color: var(--primary);
+            margin-bottom: 20px;
+        }
+        
+        .skill-card h3 {
+            margin-bottom: 15px;
+            color: var(--primary);
+        }
+        
+        .skill-card p {
+            color: var(--gray);
+        }
+        
+        /* Projects Section */
+        #projects {
+            background-color: white;
+        }
+        
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+        }
+        
+        .project-card {
+            background: var(--light);
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+        
+        .project-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+        }
+        
+        .project-img {
+            height: 200px;
+            background: linear-gradient(45deg, var(--primary), var(--secondary));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 2.5rem;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .project-img img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        .project-content {
+            padding: 25px;
+        }
+        
+        .project-content h3 {
+            color: var(--primary);
+            margin-bottom: 12px;
+            font-size: 1.4rem;
+        }
+        
+        .project-content p {
+            margin-bottom: 20px;
+            color: var(--gray);
+        }
+        
+        .project-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 10px 20px;
+            background-color: var(--primary);
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            transition: background-color 0.3s ease;
+            font-weight: 500;
+        }
+        
+        .project-link:hover {
+            background-color: var(--secondary);
+        }
+        
+        /* Certifications Section */
+        #certifications {
+            background-color: var(--light);
+        }
+        
+        .certs-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .cert-item {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        
+        .cert-icon {
+            font-size: 2rem;
+            color: var(--primary);
+            flex-shrink: 0;
+        }
+        
+        .cert-content h3 {
+            margin-bottom: 5px;
+            color: var(--primary);
+        }
+        
+        /* Contact Section */
+        .contact-content {
+            max-width: 700px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        
+        .contact-info {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            margin: 40px 0;
+        }
+        
+        .contact-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .contact-icon {
+            width: 60px;
+            height: 60px;
+            background: var(--primary);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+        }
+        
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 40px;
+        }
+        
+        .social-links a {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 60px;
+            height: 60px;
+            background: var(--primary);
+            color: white;
+            border-radius: 50%;
+            font-size: 1.8rem;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .social-links a:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.1);
+            transform: translateY(100%);
+            transition: transform 0.3s ease;
+        }
+        
+        .social-links a:hover {
+            transform: translateY(-5px);
+            background: var(--secondary);
+        }
+        
+        .social-links a:hover:before {
+            transform: translateY(0);
+        }
+        
+        /* Footer */
+        footer {
+            background: var(--secondary);
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }
+        
+        .footer-content {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            align-items: center;
+        }
+        
+        .back-to-top {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 50px;
+            height: 50px;
+            background: var(--primary);
+            color: white;
+            border-radius: 50%;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            margin-top: 20px;
+        }
+        
+        .back-to-top:hover {
+            background: var(--accent);
+            transform: translateY(-3px);
+        }
+        
+        /* Responsive */
+        @media (max-width: 992px) {
+            .profile h1 {
+                font-size: 2.4rem;
+            }
+            
+            .profile-title {
+                font-size: 1.2rem;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .nav-links {
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            
+            .nav-links li a {
+                padding: 15px;
+            }
+            
+            .profile-img {
+                width: 170px;
+                height: 170px;
+            }
+            
+            .profile h1 {
+                font-size: 2.2rem;
+            }
+            
+            .projects-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .contact-info {
+                flex-direction: column;
+                align-items: center;
+                gap: 25px;
+            }
+        }
+        
+        @media (max-width: 576px) {
+            .profile-img {
+                width: 150px;
+                height: 150px;
+            }
+            
+            .profile h1 {
+                font-size: 2rem;
+            }
+            
+            .section-title {
+                font-size: 1.8rem;
+            }
+            
+            .skill-card {
+                padding: 20px;
+            }
+        }
+    </style>
 </head>
 <body>
-  <header>
-    <img src="image.jpg" alt="Ahmed Ghonim">
-    <div class="header-text">
-      <h1>Ahmed Ghonim</h1>
-      <p>🎯 Junior Data Analyst | Python, SQL & Power BI Specialist</p>
-      <div class="social-links">
-        <a href="https://www.linkedin.com/in/ahmedghoonim" target="_blank">LinkedIn</a>
-        <a href="https://github.com/A7medGhonim" target="_blank">GitHub</a>
-        <a href="mailto:ghnewa1911@gmail.com">Email</a>
-      </div>
-    </div>
-  </header>
+    <header>
+        <div class="container">
+            <div class="profile">
+                <div class="profile-img">
+                    <!-- ضع رابط صورتك هنا -->
+                    <img src="https://raw.githubusercontent.com/A7medGhonim/A7medGhonim/image.jpg" alt="Ahmed Ghonim">
+                </div>
+                <h1>Ahmed Ghonim</h1>
+                <div class="profile-title">Junior Data Analyst | MIS Graduate </div>
+            </div>
+        </div>
+    </header>
+    
+    <nav>
+        <div class="container nav-container">
+            <ul class="nav-links">
+                <li><a href="#about">عنّي</a></li>
+                <li><a href="#skills">المهارات</a></li>
+                <li><a href="#projects">المشاريع</a></li>
+                <li><a href="#certifications">الشهادات</a></li>
+                <li><a href="#contact">التواصل</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title">عنّي</h2>
+            <div class="about-content">
+                <p style="line-height: 1.8; font-size: 20px; text-align: justify; color: #333;">
+                مرحباً، أنا أحمد غنيم، خريج حديث في أنظمة المعلومات الإدارية (MIS) من معهد العبور. أمتلك أساساً قوياً في تحليل البيانات، ذكاء الأعمال، وأنظمة تخطيط موارد المؤسسات (ERP). شغفي يكمن في تحويل البيانات المعقدة إلى تصورات واضحة وقابلة للفهم، مما يمكن الشركات من تحسين أدائها وزيادة أرباحها. أسعى دائماً لاكتشاف الأنماط الخفية في البيانات وتحويلها إلى قرارات استراتيجية. أبحث حالياً عن فرص تدريب أو وظائف على مستوى مبتدئ في مجال تحليل البيانات.
+                </p>
 
-  <main>
-    <section>
-      <h2>📊 ماذا يقدم المشروع؟</h2>
-      <ul>
-        <li>تحليل <strong>المؤشرات الرئيسية للأداء (KPIs)</strong>: إجمالي المبيعات، صافي المبيعات، قيمة الخصومات</li>
-        <li>تحليل المبيعات حسب <strong>المدن، الفئات، والفترات الزمنية</strong></li>
-        <li>تقديم <strong>رؤى قابلة للتنفيذ</strong> مبنية على البيانات</li>
-        <li>اقتراح <strong>توصيات استراتيجية</strong> لتحسين الأداء</li>
-      </ul>
+                <div class="about-highlights">
+                    <div class="highlight">
+                        <i class="fas fa-graduation-cap"></i>
+                        <span>خريج نظم المعلومات الإدارية</span>
+                    </div>
+                    <div class="highlight">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>الزقازيق، مصر</span>
+                    </div>
+                    <div class="highlight">
+                        <i class="fas fa-language"></i>
+                        <span>العربية (اللغة الأم)، الإنجليزية (جيد)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
+    
+    <section id="skills">
+        <div class="container">
+            <h2 class="section-title">المهارات</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>البرمجة</h3>
+                    <p>Python (Pandas, NumPy), SQL</p>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-chart-bar"></i>
+                    </div>
+                    <h3>تصور البيانات</h3>
+                    <p>Power BI, Tableau, Excel (PivotTables, Dashboards)</p>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>قواعد البيانات</h3>
+                    <p>Data Warehousing (DWH), ETL, SQL Server</p>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-project-diagram"></i>
+                    </div>
+                    <h3>أنظمة ERP</h3>
+                    <p>Odoo ERP, أنظمة تخطيط موارد المؤسسات</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="projects">
+        <div class="container">
+            <h2 class="section-title">المشاريع</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-img">
+                        <i class="fas fa-warehouse"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>مشروع مستودع البيانات SQL</h3>
+                        <p>مشروع عملي لبناء مستودع بيانات باستخدام SQL Server</p>
+                        <a href="https://github.com/A7medGhonim/SQL-Data-Warehouse-Project.git" class="project-link">
+                            <i class="fas fa-external-link-alt"></i> عرض المشروع
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-img">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>لوحة تحكم الموارد البشرية</h3>
+                        <p>لوحة تحكم تفاعلية لتحليل بيانات القوى العاملة باستخدام Power BI</p>
+                        <a href="https://github.com/A7medGhonim/HR-Dashboard-PowerBI.git" class="project-link">
+                            <i class="fas fa-external-link-alt"></i> عرض المشروع
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-img">
+                        <i class="fas fa-coffee"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>لوحة تحكم مبيعات المقهى</h3>
+                        <p>تحليل بيانات المبيعات باستخدام Excel و Pivot Tables مع لوحة تحكم تفاعلية</p>
+                        <a href="https://github.com/A7medGhonim/Cafe-Sales-Excel-Dashboard" class="project-link">
+                            <i class="fas fa-external-link-alt"></i> عرض المشروع
+                        </a>
+                    </div>
+                </div>
 
-    <section>
-      <h2>🛠 الأدوات المستخدمة</h2>
-      <ul>
-        <li><strong>Power BI</strong> → للتحليل والتخيل البصري</li>
-        <li><strong>Microsoft Access</strong> → كقاعدة بيانات</li>
-        <li><strong>Data Transformation & Cleaning</strong> → لتحضير البيانات</li>
-      </ul>
+                <div class="project-card">
+                    <div class="project-img">
+                        <i class="fas fa-shoe-prints"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>لوحة تحكم مبيعات Adidas</h3>
+                        <p>لوحة تحكم تفاعلية لتحليل مبيعات Adidas باستخدام Power BI</p>
+                        <a href="https://github.com/A7medGhonim/Adidas-Sales-Dashboard.git" class="project-link">
+                            <i class="fas fa-external-link-alt"></i> عرض المشروع
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
+    
+    <section id="certifications">
+        <div class="container">
+            <h2 class="section-title">الشهادات والدورات</h2>
+            <div class="certs-container">
+                <div class="cert-item">
+                    <div class="cert-icon">
+                        <i class="fab fa-python"></i>
+                    </div>
+                    <div class="cert-content">
+                        <h3>Python for Data Analysis</h3>
+                        <p>شهادة في تحليل البيانات باستخدام Python</p>
+                    </div>
+                </div>
+                
+                <div class="cert-item">
+                    <div class="cert-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <div class="cert-content">
+                        <h3>SQL</h3>
+                        <p>شهادة في قواعد البيانات واستعلامات SQL</p>
+                    </div>
+                </div>
+                
+                <div class="cert-item">
+                    <div class="cert-icon">
+                        <i class="fas fa-table"></i>
+                    </div>
+                    <div class="cert-content">
+                        <h3>Excel المتقدم</h3>
+                        <p>شهادة في Excel including PivotTables, Dashboards</p>
+                    </div>
+                </div>
+                
+                <div class="cert-item">
+                    <div class="cert-icon">
+                        <i class="fas fa-chart-area"></i>
+                    </div>
+                    <div class="cert-content">
+                        <h3>Power BI</h3>
+                        <p>شهادة في تصور البيانات باستخدام Power BI</p>
+                    </div>
+                </div>
+                
+                <div class="cert-item">
+                    <div class="cert-icon">
+                        <i class="fas fa-chart-pie"></i>
+                    </div>
+                    <div class="cert-content">
+                        <h3>Tableau</h3>
+                        <p>شهادة في Tableau للتصور البياني</p>
+                    </div>
+                </div>
+                
+                <div class="cert-item">
+                    <div class="cert-icon">
+                        <i class="fas fa-digital-tachograph"></i>
+                    </div>
+                    <div class="cert-content">
+                        <h3>Digital Transformation</h3>
+                        <p>شهادة في التحول الرقمي</p>
+                    </div>
+                </div>
+                
+                <div class="cert-item">
+                    <div class="cert-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <div class="cert-content">
+                        <h3>Odoo ERP</h3>
+                        <p>شهادة في أنظمة تخطيط موارد المؤسسات</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title">التواصل</h2>
+            <div class="contact-content">
+                <p>هل تريد التعاون معي أو لديك استفسار؟ لا تتردد في التواصل!</p>
+                
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h3>الموقع</h3>
+                            <p>الزقازيق، مصر</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h3>البريد الإلكتروني</h3>
+                            <p>ghnewa1911@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/ahmedghoonim" title="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://www.facebook.com/share/19JWnRjSrQ/" title="Facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="mailto:ghnewa1911@gmail.com" title="Email">
+                        <i class="far fa-envelope"></i>
+                    </a>
+                    <a href="https://github.com/A7medGhonim" title="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>© 2023 أحمد غنيم. جميع الحقوق محفوظة.</p>
+                <a href="#" class="back-to-top">
+                    <i class="fas fa-arrow-up"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
 
-    <section>
-      <h2>💡 أبرز الرؤى المستخلصة</h2>
-      <ul>
-        <li>وجود <strong>تباين واضح</strong> في أداء المبيعات بين المدن المختلفة</li>
-        <li>تفوق فئة <strong>Bikes</strong> على باقي الفئات</li>
-        <li>تحديد <strong>مواسم ذروة</strong> واضحة خلال العام</li>
-      </ul>
-    </section>
-
-    <section>
-      <h2>🔗 تجربة المشروع</h2>
-      <p>👉 <a href="https://a7medghonim.github.io/Adidas-Sales-Dashboard/" target="_blank">
-        اضغط هنا لفتح Adidas Sales Dashboard
-      </a></p>
-    </section>
-
-    <section class="hashtags">
-      #DataAnalysis #PowerBI #DataVisualization #Adidas #SalesAnalysis #BusinessIntelligence #DataAnalytics #Dashboard
-    </section>
-  </main>
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+                
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+        
+        // Back to top button
+        const backToTopBtn = document.querySelector('.back-to-top');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 500) {
+                backToTopBtn.style.opacity = '1';
+                backToTopBtn.style.visibility = 'visible';
+            } else {
+                backToTopBtn.style.opacity = '0';
+                backToTopBtn.style.visibility = 'hidden';
+            }
+        });
+    </script>
 </body>
 </html>
