@@ -53,26 +53,20 @@ I build dashboards and data pipelines that help teams make faster, better decisi
 
 <table align="center">
   <tr>
-    <td align="center" width="50%">
-      <a href="https://github.com/A7medGhonim/SQL-Data-Warehouse-Project"><img src="https://github-readme-stats.vercel.app/api/pin/?username=A7medGhonim&repo=SQL-Data-Warehouse-Project&theme=tokyonight&hide_border=true" alt="SQL Data Warehouse" width="100%"></a>
-      <br><sub>📊 Complete Data Warehouse built in SQL Server</sub>
-    </td>
-    <td align="center" width="50%">
-      <a href="https://github.com/A7medGhonim/HR-Dashboard-PowerBI"><img src="https://github-readme-stats.vercel.app/api/pin/?username=A7medGhonim&repo=HR-Dashboard-PowerBI&theme=tokyonight&hide_border=true" alt="HR Dashboard" width="100%"></a>
-      <br><sub>👥 Power BI dashboard for workforce analysis</sub>
-    </td>
+    <td align="center" width="50%"><a href="https://github.com/A7medGhonim/SQL-Data-Warehouse-Project"><img src="assets/project-dwh.svg" alt="SQL Data Warehouse" width="100%"></a></td>
+    <td align="center" width="50%"><a href="https://github.com/A7medGhonim/HR-Dashboard-PowerBI"><img src="assets/project-hr.svg" alt="HR Dashboard" width="100%"></a></td>
   </tr>
   <tr>
-    <td align="center" width="50%">
-      <a href="https://github.com/A7medGhonim/Cafe-Sales-Excel-Dashboard"><img src="https://github-readme-stats.vercel.app/api/pin/?username=A7medGhonim&repo=Cafe-Sales-Excel-Dashboard&theme=tokyonight&hide_border=true" alt="Cafe Sales Dashboard" width="100%"></a>
-      <br><sub>☕ Excel Pivot Tables + interactive dashboard</sub>
-    </td>
-    <td align="center" width="50%">
-      <a href="https://github.com/A7medGhonim/Adidas-Sales-Dashboard"><img src="https://github-readme-stats.vercel.app/api/pin/?username=A7medGhonim&repo=Adidas-Sales-Dashboard&theme=tokyonight&hide_border=true" alt="Adidas Sales Dashboard" width="100%"></a>
-      <br><sub>👟 Power BI sales performance analysis</sub>
-    </td>
+    <td align="center" width="50%"><a href="https://github.com/A7medGhonim/Cafe-Sales-Excel-Dashboard"><img src="assets/project-cafe.svg" alt="Cafe Sales Dashboard" width="100%"></a></td>
+    <td align="center" width="50%"><a href="https://github.com/A7medGhonim/Adidas-Sales-Dashboard"><img src="assets/project-adidas.svg" alt="Adidas Sales Dashboard" width="100%"></a></td>
   </tr>
 </table>
+
+<br>
+
+<h2 align="center">🎓 Certifications &nbsp;|&nbsp; الشهادات والدورات</h2>
+
+<p align="center"><img src="assets/certifications.svg" alt="Certifications" width="90%"></p>
 
 <br>
 
@@ -89,21 +83,13 @@ I build dashboards and data pipelines that help teams make faster, better decisi
 
 <br>
 
-<details>
-<summary><b>🎓 Certifications &amp; Courses | الشهادات</b> (click to expand)</summary>
-<br>
+<h2 align="center">🌍 Languages &nbsp;|&nbsp; اللغات</h2>
 
-Python for Data Analysis • SQL • Excel • Power BI • Tableau • Digital Transformation • Odoo ERP
-
-</details>
-
-<details>
-<summary><b>🌍 Languages | اللغات</b> (click to expand)</summary>
-<br>
-
-Arabic (العربية): **Native** • English: **Good** • French: **Basic**
-
-</details>
+<p align="center">
+  <img src="https://img.shields.io/badge/Arabic_(العربية)-Native-2F81F7?style=for-the-badge" alt="Arabic">
+  <img src="https://img.shields.io/badge/English-Good-3FB950?style=for-the-badge" alt="English">
+  <img src="https://img.shields.io/badge/French-Basic-8B949E?style=for-the-badge" alt="French">
+</p>
 
 <br>
 
