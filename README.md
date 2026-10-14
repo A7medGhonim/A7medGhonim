@@ -8,7 +8,7 @@
 I am a **recent graduate in Management Information Systems (MIS)** from Obour Institute.  
 I have a strong foundation in **data analysis, business intelligence, and ERP systems**.  
 
-> ✨ شغوف بتحليل البيانات، وبحب أحول الأرقام لمعلومات واضحة تساعد في اتخاذ القرار.  
+>   
 
 📍 Based in **Zagazig, Egypt**  
 🔎 Actively looking for **internships or entry-level roles** in Data Analysis.  
