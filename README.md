@@ -1,11 +1,8 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1000&color=2F81F7&center=true&vCenter=true&width=700&lines=Hi%2C+I%27m+Ahmed+Ghonim;Junior+Data+Analyst;Python+%7C+SQL+%7C+Power+BI;I+turn+data+into+decisions" alt="Typing SVG" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:2c5364,100:2F81F7&height=200&section=header&text=Ahmed%20Ghonim&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Junior%20Data%20Analyst&descSize=20&descAlignY=58" alt="Banner" width="100%" />
 
-<p>
-  <b>Recent MIS Graduate</b> • Based in Zagazig, Egypt 📍<br>
-  🔎 <i>Open to internships &amp; entry-level Data Analyst roles</i>
-</p>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=2F81F7&center=true&vCenter=true&width=650&lines=Turning+raw+data+into+business+decisions;Python+%7C+SQL+%7C+Power+BI+%7C+Tableau;MIS+Graduate+%7C+Open+to+work" alt="Typing SVG" />
 
 <p>
   <a href="https://www.linkedin.com/in/ahmedghoonim"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
@@ -13,62 +10,68 @@
   <a href="https://www.facebook.com/share/19JWnRjSrQ/"><img src="https://img.shields.io/badge/Facebook-Follow-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook"></a>
 </p>
 
+<p>
+  <img src="https://img.shields.io/badge/📍_Zagazig,_Egypt-555?style=flat-square" alt="Location">
+  <img src="https://img.shields.io/badge/🟢_Open_to_internships_&_entry--level_roles-2ea44f?style=flat-square" alt="Open to work">
+</p>
+
 </div>
 
 ---
 
-## 📌 About Me | نبذة عني
+## 👨‍💻 About Me | نبذة عني
 
-I'm a recent **Management Information Systems (MIS)** graduate from **Obour Institute**, with a solid foundation in **data analysis, business intelligence, and ERP systems**.
+Recent **Management Information Systems (MIS)** graduate from **Obour Institute**.
+I build dashboards and data pipelines that help teams make faster, better decisions.
 
-I love building dashboards and data pipelines that help teams make faster, better decisions.
-
-- 🔭 Building: dashboards, data warehouses, and ETL workflows
-- 🌱 Learning: advanced SQL, Python for analytics
-- 🎯 Goal: land my first role as a Data Analyst
-- 💬 Ask me about: Power BI, SQL Server, Excel dashboards, Odoo ERP
+```text
+🔭 Building   →  dashboards, data warehouses, ETL workflows
+🌱 Learning   →  advanced SQL, Python for analytics
+🎯 Goal       →  my first role as a Data Analyst
+💬 Ask me on  →  Power BI, SQL Server, Excel dashboards, Odoo ERP
+```
 
 ---
 
-## 🛠️ Tech Stack | المهارات التقنية
+## 🛠️ Tech Stack | المهارات
 
 <div align="center">
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+<img src="https://skillicons.dev/icons?i=python,pandas,numpy,mysql,powerbi,excel,git,github&theme=dark" alt="Skills" />
+
+<br><br>
+
 ![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
-![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 ![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
-![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
 ![Odoo](https://img.shields.io/badge/Odoo-714B67?style=for-the-badge&logo=odoo&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![ETL](https://img.shields.io/badge/ETL_&_DWH-2F81F7?style=for-the-badge)
 
 </div>
 
-| Area | Tools |
-|------|-------|
-| 💻 Programming | Python (Pandas, NumPy), SQL |
-| 📊 Visualization | Power BI, Tableau, Excel (PivotTables, Dashboards) |
-| 🏗️ Data Engineering | Data Warehousing (DWH), ETL |
-| 🧩 Business Systems | ERP, Odoo |
-
 ---
 
-## 📂 Featured Projects | المشاريع البارزة
+## 📂 Featured Projects | المشاريع
 
-| Project | Description | Tools |
-|---------|-------------|-------|
-| [📊 **SQL Data Warehouse**](https://github.com/A7medGhonim/SQL-Data-Warehouse-Project) | Building a complete Data Warehouse from scratch | ![SQL](https://img.shields.io/badge/SQL_Server-CC2927?style=flat-square) |
-| [👥 **HR Dashboard**](https://github.com/A7medGhonim/HR-Dashboard-PowerBI) | Interactive dashboard to analyze workforce data and support HR decisions | ![PowerBI](https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logoColor=black) |
-| [☕ **Cafe Sales Dashboard**](https://github.com/A7medGhonim/Cafe-Sales-Excel-Dashboard) | Sales analysis with Pivot Tables and an interactive dashboard | ![Excel](https://img.shields.io/badge/Excel-217346?style=flat-square) |
-| [👟 **Adidas Sales Dashboard**](https://github.com/A7medGhonim/Adidas-Sales-Dashboard) | Sales performance analysis and visual insights | ![PowerBI](https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logoColor=black) |
+<div align="center">
+
+<a href="https://github.com/A7medGhonim/SQL-Data-Warehouse-Project"><img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=A7medGhonim&repo=SQL-Data-Warehouse-Project&theme=radical&hide_border=true" alt="SQL Data Warehouse" /></a>
+<a href="https://github.com/A7medGhonim/HR-Dashboard-PowerBI"><img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=A7medGhonim&repo=HR-Dashboard-PowerBI&theme=radical&hide_border=true" alt="HR Dashboard" /></a>
+<a href="https://github.com/A7medGhonim/Cafe-Sales-Excel-Dashboard"><img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=A7medGhonim&repo=Cafe-Sales-Excel-Dashboard&theme=radical&hide_border=true" alt="Cafe Sales Dashboard" /></a>
+<a href="https://github.com/A7medGhonim/Adidas-Sales-Dashboard"><img width="48%" src="https://github-readme-stats.vercel.app/api/pin/?username=A7medGhonim&repo=Adidas-Sales-Dashboard&theme=radical&hide_border=true" alt="Adidas Sales Dashboard" /></a>
+
+</div>
+
+| Project | What it does |
+|---------|--------------|
+| 📊 **SQL Data Warehouse** | Builds a complete Data Warehouse in SQL Server |
+| 👥 **HR Dashboard** | Power BI dashboard to analyze workforce data |
+| ☕ **Cafe Sales Dashboard** | Excel + Pivot Tables, interactive dashboard |
+| 👟 **Adidas Sales Dashboard** | Power BI sales performance analysis |
 
 ---
 
 <details>
-<summary><b>🎓 Certifications & Courses | الشهادات والدورات</b> (click to expand)</summary>
-
+<summary><b>🎓 Certifications & Courses | الشهادات</b> (click to expand)</summary>
 <br>
 
 - ✅ Python for Data Analysis
@@ -83,7 +86,6 @@ I love building dashboards and data pipelines that help teams make faster, bette
 
 <details>
 <summary><b>🌍 Languages | اللغات</b> (click to expand)</summary>
-
 <br>
 
 | Language | Level |
@@ -96,7 +98,7 @@ I love building dashboards and data pipelines that help teams make faster, bette
 
 ---
 
-## 📊 GitHub Insights
+## 📊 GitHub Stats
 
 <div align="center">
 
@@ -109,16 +111,13 @@ I love building dashboards and data pipelines that help teams make faster, bette
 
 ---
 
-## 📫 Let's Connect | تواصل معي
-
-I'm actively looking for **internships and entry-level Data Analyst roles**.
-If you have an opportunity or just want to talk data, reach out! 🤝
-
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ahmedghoonim)
-[![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ghnewa1911@gmail.com)
+### 📫 Let's work together
 
-⭐ *If you like my projects, drop a star!*
+<a href="mailto:ghnewa1911@gmail.com"><img src="https://img.shields.io/badge/Send_me_an_email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+<a href="https://www.linkedin.com/in/ahmedghoonim"><img src="https://img.shields.io/badge/Message_me_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:2c5364,100:2F81F7&height=100&section=footer" alt="Footer" width="100%" />
 
 </div>
