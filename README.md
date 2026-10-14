@@ -1,14 +1,17 @@
 <div align="center">
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1000&color=2F81F7&center=true&vCenter=true&width=700&lines=Hi%2C+I%27m+Ahmed+Ghonim;Junior+Data+Analyst;Python+%7C+SQL+%7C+Power+BI;I+turn+data+into+decisions" alt="Typing SVG" />
-**Recent MIS Graduate** • Based in Zagazig, Egypt 📍
-🔎 *Open to internships & entry-level Data Analyst roles*
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ahmedghoonim)
-[![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ghnewa1911@gmail.com)
-[![Facebook](https://img.shields.io/badge/Facebook-Follow-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/share/19JWnRjSrQ/)
+<p>
+  <b>Recent MIS Graduate</b> • Based in Zagazig, Egypt 📍<br>
+  🔎 <i>Open to internships &amp; entry-level Data Analyst roles</i>
+</p>
 
-![Profile Views](https://komarev.com/ghpvc/?username=A7medGhonim&label=Profile+Views&color=2F81F7&style=flat-square)
+<p>
+  <a href="https://www.linkedin.com/in/ahmedghoonim"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="mailto:ghnewa1911@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+  <a href="https://www.facebook.com/share/19JWnRjSrQ/"><img src="https://img.shields.io/badge/Facebook-Follow-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook"></a>
+</p>
 
 </div>
 
