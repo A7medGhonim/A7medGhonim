@@ -32,20 +32,9 @@ I build dashboards and data pipelines that help teams make faster, better decisi
 
 <br>
 
-<h2 align="center">🛠️ Tech Stack &nbsp;|&nbsp; المهارات</h2>
+<h2 align="center">🛠️ Skills &nbsp;|&nbsp; المهارات التقنية</h2>
 
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=python,pandas,numpy,mysql,powerbi,excel,git,github&theme=dark" alt="Skills" />
-
-<br><br>
-
-<img src="https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white" alt="SQL Server">
-<img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white" alt="Tableau">
-<img src="https://img.shields.io/badge/Odoo_ERP-714B67?style=for-the-badge&logo=odoo&logoColor=white" alt="Odoo">
-<img src="https://img.shields.io/badge/ETL_%26_DWH-2F81F7?style=for-the-badge" alt="ETL and DWH">
-
-</div>
+<p align="center"><img src="assets/skills.svg" alt="Skills" width="90%"></p>
 
 <br>
 
@@ -65,7 +54,7 @@ I build dashboards and data pipelines that help teams make faster, better decisi
 
 <h2 align="center">🎓 Certifications &nbsp;|&nbsp; الشهادات والدورات</h2>
 
-<p align="center"><img src="assets/certifications.svg" alt="Certifications" width="90%"></p>
+<p align="center"><img src="assets/certifications-v2.svg" alt="Certifications" width="90%"></p>
 
 <br>
 
