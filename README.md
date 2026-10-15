@@ -51,19 +51,15 @@ I build dashboards and data pipelines that help teams make faster, better decisi
 
 <h2 align="center">📂 Featured Projects &nbsp;|&nbsp; المشاريع</h2>
 
-<table align="center">
-  <tr>
-    <td align="center" colspan="2"><a href="https://github.com/A7medGhonim/Startups-Data-Analysis"><img src="assets/project-startups.svg" alt="Startups Data Analysis" width="100%"></a></td>
-  </tr>
-  <tr>
-    <td align="center" width="50%"><a href="https://github.com/A7medGhonim/SQL-Data-Warehouse-Project"><img src="assets/project-dwh.svg" alt="SQL Data Warehouse" width="100%"></a></td>
-    <td align="center" width="50%"><a href="https://github.com/A7medGhonim/HR-Dashboard-PowerBI"><img src="assets/project-hr.svg" alt="HR Dashboard" width="100%"></a></td>
-  </tr>
-  <tr>
-    <td align="center" width="50%"><a href="https://github.com/A7medGhonim/Cafe-Sales-Excel-Dashboard"><img src="assets/project-cafe.svg" alt="Cafe Sales Dashboard" width="100%"></a></td>
-    <td align="center" width="50%"><a href="https://github.com/A7medGhonim/Adidas-Sales-Dashboard"><img src="assets/project-adidas.svg" alt="Adidas Sales Dashboard" width="100%"></a></td>
-  </tr>
-</table>
+<p align="center"><a href="https://github.com/A7medGhonim/Startups-Data-Analysis"><img src="assets/project-startups.svg" alt="Startups Data Analysis" width="100%"></a></p>
+
+<p align="center"><a href="https://github.com/A7medGhonim/SQL-Data-Warehouse-Project"><img src="assets/project-dwh.svg" alt="SQL Data Warehouse" width="100%"></a></p>
+
+<p align="center"><a href="https://github.com/A7medGhonim/HR-Dashboard-PowerBI"><img src="assets/project-hr.svg" alt="HR Dashboard" width="100%"></a></p>
+
+<p align="center"><a href="https://github.com/A7medGhonim/Cafe-Sales-Excel-Dashboard"><img src="assets/project-cafe.svg" alt="Cafe Sales Dashboard" width="100%"></a></p>
+
+<p align="center"><a href="https://github.com/A7medGhonim/Adidas-Sales-Dashboard"><img src="assets/project-adidas.svg" alt="Adidas Sales Dashboard" width="100%"></a></p>
 
 <br>
 
