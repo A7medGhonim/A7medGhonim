@@ -17,7 +17,7 @@
 <h2 align="center">👨‍💻 About Me &nbsp;|&nbsp; نبذة عني</h2>
 
 <p align="center">
-Recent <b>Management Information Systems (MIS)</b> graduate from <b>Obour Institute</b>.<br>
+<b>Management Information Systems (MIS)</b> graduate from <b>Obour Institute</b>.<br>
 I build dashboards and data pipelines that help teams make faster, better decisions.
 </p>
 
@@ -66,19 +66,6 @@ I build dashboards and data pipelines that help teams make faster, better decisi
 <h2 align="center">🎓 Certifications &nbsp;|&nbsp; الشهادات والدورات</h2>
 
 <p align="center"><img src="assets/certifications.svg" alt="Certifications" width="90%"></p>
-
-<br>
-
-<h2 align="center">📊 GitHub Stats</h2>
-
-<table align="center">
-  <tr>
-    <td align="center"><img src="https://github-readme-stats.vercel.app/api?username=A7medGhonim&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" height="170"></td>
-    <td align="center"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=A7medGhonim&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="170"></td>
-  </tr>
-</table>
-
-<p align="center"><img src="https://streak-stats.demolab.com/?user=A7medGhonim&theme=tokyonight&hide_border=true" alt="GitHub Streak"></p>
 
 <br>
 
