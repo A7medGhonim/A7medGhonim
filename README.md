@@ -52,9 +52,11 @@ I build dashboards and data pipelines that help teams make faster, better decisi
 
 <br>
 
-<h2 align="center">🎓 Certifications &nbsp;|&nbsp; الشهادات والدورات</h2>
+<h2 align="center">🎓 Courses &nbsp;|&nbsp; الدورات التدريبية</h2>
 
-<p align="center"><img src="assets/certifications-v2.svg" alt="Certifications" width="90%"></p>
+<p align="center"><sub>Completed at <b>Obour Institute</b></sub></p>
+
+<p align="center"><img src="assets/certifications-v2.svg" alt="Courses" width="90%"></p>
 
 <br>
 
