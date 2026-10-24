@@ -40,19 +40,19 @@ I build dashboards and data pipelines that help teams make faster, better decisi
 
 <h2 align="center">📂 Featured Projects &nbsp;|&nbsp; المشاريع</h2>
 
-<p align="center"><a href="https://github.com/A7medGhonim/Startups-Data-Analysis"><img src="assets/project-startups-v2.svg" alt="Startups Data Analysis" width="100%"></a></p>
+<p align="center"><a href="https://github.com/A7medGhonim/Startups-Data-Analysis"><img src="assets/project-startups.svg" alt="Startups Data Analysis" width="100%"></a></p>
 
-<p align="center"><a href="https://github.com/A7medGhonim/decathlon-retail-performance-dashboard"><img src="assets/project-decathlon-v2.svg" alt="Decathlon Retail Performance" width="100%"></a></p>
+<p align="center"><a href="https://github.com/A7medGhonim/decathlon-retail-performance-dashboard"><img src="assets/project-decathlon.svg" alt="Decathlon Retail Performance" width="100%"></a></p>
 
-<p align="center"><a href="https://github.com/A7medGhonim/SQL-Data-Warehouse-Project"><img src="assets/project-dwh-v2.svg" alt="SQL Data Warehouse" width="100%"></a></p>
+<p align="center"><a href="https://github.com/A7medGhonim/SQL-Data-Warehouse-Project"><img src="assets/project-dwh.svg" alt="SQL Data Warehouse" width="100%"></a></p>
 
-<p align="center"><a href="https://github.com/A7medGhonim/HR-Dashboard-PowerBI"><img src="assets/project-hr-v2.svg" alt="HR Dashboard" width="100%"></a></p>
+<p align="center"><a href="https://github.com/A7medGhonim/HR-Dashboard-PowerBI"><img src="assets/project-hr.svg" alt="HR Dashboard" width="100%"></a></p>
 
-<p align="center"><a href="https://github.com/A7medGhonim/Cafe-Sales-Excel-Dashboard"><img src="assets/project-cafe-v2.svg" alt="Cafe Sales Dashboard" width="100%"></a></p>
+<p align="center"><a href="https://github.com/A7medGhonim/Cafe-Sales-Excel-Dashboard"><img src="assets/project-cafe.svg" alt="Cafe Sales Dashboard" width="100%"></a></p>
 
-<p align="center"><a href="https://github.com/A7medGhonim/Adidas-Sales-Dashboard"><img src="assets/project-adidas-v2.svg" alt="Adidas Sales Dashboard" width="100%"></a></p>
+<p align="center"><a href="https://github.com/A7medGhonim/Adidas-Sales-Dashboard"><img src="assets/project-adidas.svg" alt="Adidas Sales Dashboard" width="100%"></a></p>
 
-<p align="center"><a href="https://github.com/A7medGhonim/Odoo-Nursery-System-Analysis-Design"><img src="assets/project-nursery-v2.svg" alt="Nursery Management System" width="100%"></a></p>
+<p align="center"><a href="https://github.com/A7medGhonim/Odoo-Nursery-System-Analysis-Design"><img src="assets/project-nursery.svg" alt="Nursery Management System" width="100%"></a></p>
 
 <br>
 
